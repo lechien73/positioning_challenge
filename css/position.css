@@ -1,0 +1,66 @@
+body {
+	height: 100%;
+	margin-bottom: 120px;
+}
+.box {
+	background-color: lightskyblue;
+	color: red;
+	font-family: Roboto;
+	font-size: 20px;
+	text-align: center;
+	padding: 30px 0;
+	position: relative;		/*Must be relative for absolute image link*/
+	width: 100%;
+}
+
+.content{
+	/*add vendor prefixes for border-box*/
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	box-sizing: border-box;
+	display: inline-block;
+	margin-left: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	width:470px;
+}
+
+#footer {
+	background-color: lightgoldenrodyellow;
+	bottom: 0px;
+	color: white;
+	height: 50px;
+	left: 0px;
+	position: fixed;
+}
+
+
+h1 {
+	padding-top: 20px;
+}
+
+#header {
+	height: 100px;
+	margin-bottom: 10px;
+	text-align: center;
+	width: 960px;
+}
+
+.sidebar{
+	/*add vendor prefixes for border-box*/
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	display: inline-block;
+	margin-right: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	width:470px;
+}
+
+.saleImage {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+
+}
